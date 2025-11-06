@@ -1004,7 +1004,7 @@ function showAlert(tabId, title, message, addCopy = false) {
         <h3 style="margin: 0 0 16px 0; color: #4CAF50; font-size: 18px; font-weight: 600;">${ttl.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h3>
         <div style="white-space: pre-wrap; line-height: 1.6; font-size: 14px; background: #f5f5f5; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-family: 'Consolas', 'Monaco', monospace; word-break: break-all;">${msgEscaped}</div>
         <div style="display: flex; gap: 8px;">
-          ${copy ? '<button id="copy-result" style="flex: 1; padding: 10px 20px; background: #2196F3; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500;">📋 Copy</button>' : ''}
+          ${copy ? '<button id="copy-result" style="flex: 1; padding: 10px 20px; background: #2196F3; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500;">Copy</button>' : ''}
           <button id="close-popup" style="flex: 1; padding: 10px 20px; background: #4CAF50; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500;">Close</button>
         </div>
       `;
